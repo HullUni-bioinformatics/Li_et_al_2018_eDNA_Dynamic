@@ -17,7 +17,7 @@ Release 1.0 of this repository has been archived:
   - Jupyter notebook for fully rerun/reproduce analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
   
     
-  - R scripts used to produce the figures in the paper ([here]())
+  - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/tree/master/R_script))
   
   
   - Appendix B: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/Appendix_S1.csv))
