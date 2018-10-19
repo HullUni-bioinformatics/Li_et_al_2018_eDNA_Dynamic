@@ -60,9 +60,9 @@ Raw illumina data has been deposited with Genbank (BioProject: PRJNA486650; BioS
 With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb).
 
 The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_data` at the base of the repository structure and that the files are named according to the following convention:
-'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv).
+'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/supplementary_data/Sample_accessions.tsv).
 
-The __Querymap for demultiplex and trimming__ can be found [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/Querymap_demultiplex_trimming_12S.txt)
+The __Querymap for demultiplex and trimming__ can be found [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/Querymap_demultiplex_trimming.txt)
 
 The __12S reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/tree/master/supplementary_data/reference_DBs))
  
