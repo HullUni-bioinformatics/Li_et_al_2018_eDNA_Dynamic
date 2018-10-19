@@ -1,18 +1,18 @@
-# Li_et_al_2018_eDNA_dynamic need to be fixed
+# Li_et_al_2019_eDNA_dynamic
 
 
 
-Data processing workflow and supplementary data for Li et al. 2018 - 
+Data processing workflow and supplementary data for Li et al. 2019 - Limited  dispersion  and  quick  degradation  of  environmental  DNA  in  fish  ponds  inferred  by  metabarcoding 
 
 Release 1.0 of this repository has been archived: 
 
 ##Contents
  
-  - SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv))
+  - SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/supplementary_data/Sample_accessions.tsv))
   
   - Jupyter notebook for download the raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb)).
   
-  - 12S curated reference databases used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
+  - 12S curated reference databases used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/tree/master/supplementary_data/reference_DBs))
    
   - Jupyter notebook for fully rerun/reproduce analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
   
@@ -20,7 +20,7 @@ Release 1.0 of this repository has been archived:
   - R scripts used to produce the figures in the paper ([here]())
   
   
-  - Appendix S4: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix%20S4_12S_LP_Rdataset_Dec_2017.csv))
+  - Appendix B: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/Appendix_S1.csv))
 
 ##Instructions on how to set up all dependencies for data processing/analyses
  
@@ -32,7 +32,7 @@ Illumina data was processed (from raw reads to taxonomic assignments) using the 
 
 In order to retrieve supplementary data (reference sequences etc.) start by cloning this repository to your current directory:
 ```
-git clone --recursive https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring.git
+git clone --recursive https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic.git
 ```
 
 
@@ -54,7 +54,7 @@ This will download the metaBEAT image (if it's not yet present on your computer)
 
   - __12S__
  
-Raw illumina data has been deposited with Genbank (BioProject: PRJNA486650; BioSample accession: SAMN09859568–SAMN09859583; Sequence Read Archive accessions: SRR7716776–SRR7716791) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the 12S raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb).
+Raw illumina data has been deposited with Genbank (BioProject: PRJNA486650; BioSample accession: SAMN09859568–SAMN09859583; Sequence Read Archive accessions: SRR7716776–SRR7716791) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the 12S raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb).
 
 
 With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb).
@@ -64,6 +64,6 @@ The workflow illustrated in the notebooks assumes that the raw Illumina data is 
 
 The __Querymap for demultiplex and trimming__ can be found [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/Querymap_demultiplex_trimming_12S.txt)
 
-The __12S reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
+The __12S reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/tree/master/supplementary_data/reference_DBs))
  
 
