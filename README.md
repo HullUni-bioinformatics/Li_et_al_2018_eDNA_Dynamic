@@ -32,7 +32,7 @@ Illumina data was processed (from raw reads to taxonomic assignments) using the 
 
 In order to retrieve supplementary data (reference sequences etc.) start by cloning this repository to your current directory:
 ```
-git clone --recursive https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic.git
+git clone --recursive https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_dynamic.git
 ```
 
 
