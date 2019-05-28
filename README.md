@@ -21,6 +21,8 @@ Release 1.0 of this repository has been archived:
   
   
   - Appendix B: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/Appendix_S1.csv))
+  
+  - Appendix C: Relative proportion read counts of species in each real pond sample (.xlsx) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_dynamic/blob/master/Appendix_S1.csv))
 
 ##Instructions on how to set up all dependencies for data processing/analyses
  
