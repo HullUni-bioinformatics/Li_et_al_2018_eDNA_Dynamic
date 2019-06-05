@@ -2,7 +2,7 @@
 
 
 
-Data processing workflow and supplementary data for Li et al. 2019 - Limited  dispersion  and  quick  degradation  of  environmental  DNA  in  fish  ponds  inferred  by  metabarcoding 
+Data processing workflow and supplementary data for Li et al. 2019 - Limited  dispersion  and  quick  degradation  of  environmental  DNA  in  fish  ponds  inferred  by  metabarcoding  _Environmental DNA_ (Accepted)
 
 Release 1.0 of this repository has been archived: <a href="https://zenodo.org/badge/latestdoi/145311237"><img src="https://zenodo.org/badge/145311237.svg" alt="DOI"></a>
 
